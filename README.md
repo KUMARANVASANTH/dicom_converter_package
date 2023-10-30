@@ -24,8 +24,8 @@ output_path = "/path/to/output_files"
 converter.convert(folder_path, output_path)
 ```
 ## Dependencies
-pydicom
-Pillow
+1. pydicom
+2. Pillow
 
 ## Contributing
 If you would like to contribute to this project, please follow these steps:
