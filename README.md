@@ -42,3 +42,6 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 
 ## Acknowledgments
 Thanks to the contributors of pydicom and Pillow.
+
+## Author
+Vasantharan K (https://www.github.com/KUMARANVASANTH/)
