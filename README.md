@@ -10,9 +10,10 @@ You can install `dicom_converter_package` from GitHub using `pip`:
 
 ```bash
 pip install git+https://github.com/KUMARANVASANTH/dicom_converter_package.git
+```
 
-**Usage**
-
+## Usage
+```
 from dicom_converter import converter
 
 # Specify input and output paths
@@ -21,12 +22,12 @@ output_path = "/path/to/output_files"
 
 # Convert DICOM to JPEG
 converter.convert(folder_path, output_path)
-
-**Dependencies**
+```
+## Dependencies
 pydicom
 Pillow
 
-**Contributing**
+## Contributing
 If you would like to contribute to this project, please follow these steps:
 
 1. Fork the repository
@@ -36,8 +37,8 @@ If you would like to contribute to this project, please follow these steps:
 5. Create a pull request
 
 
-**License**
+## License
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 
-**Acknowledgments**
+## Acknowledgments
 Thanks to the contributors of pydicom and Pillow.
