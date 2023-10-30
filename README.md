@@ -9,7 +9,7 @@ Convert DICOM files to JPEG format using Python.
 You can install `dicom_converter_package` from GitHub using `pip`:
 
 ```bash
-pip install git+https://github.com/your-username/dicom_converter_package.git
+pip install git+https://github.com/KUMARANVASANTH/dicom_converter_package.git
 
 
 from dicom_converter import converter
