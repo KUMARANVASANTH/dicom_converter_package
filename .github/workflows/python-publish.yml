@@ -28,13 +28,13 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
+        # python -m pip install --upgrade pip
         pip install setuptools wheel twine
         pip install build
     - name: Build package
       run: python -m build
-    - name: Print Long Description
-      run: cat README.md
+    - name: Print Distributions
+      run: ls dist
     - name: Publish package
       uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
       with:
