@@ -11,6 +11,7 @@ You can install `dicom_converter_package` from GitHub using `pip`:
 ```bash
 pip install git+https://github.com/KUMARANVASANTH/dicom_converter_package.git
 
+**## Usage**
 
 from dicom_converter import converter
 
