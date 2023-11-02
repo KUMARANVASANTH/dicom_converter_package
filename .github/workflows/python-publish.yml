@@ -44,7 +44,7 @@ jobs:
         verify_metadata: true
         skip_existing: false
         verbose: false
-  env:
-    pythonLocation: /opt/hostedtoolcache/Python/3.12.0/x64
-    LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.0/x64/lib
+      env:
+        pythonLocation: /opt/hostedtoolcache/Python/3.12.0/x64
+        LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.0/x64/lib
         
