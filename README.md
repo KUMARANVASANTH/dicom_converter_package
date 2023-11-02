@@ -9,11 +9,11 @@ Convert DICOM files to JPEG format using Python.
 You can install `dicom_converter_package` from GitHub using `pip`:
 
 ```bash
-pip install git+https://github.com/KUMARANVASANTH/dicom_converter_package.git
+pip install dicom_converter_package
 ```
 
 ## Usage
-```
+```bash
 from dicom_converter import converter
 
 # Specify input and output paths
@@ -26,6 +26,9 @@ converter.convert(folder_path, output_path)
 ## Dependencies
 1. pydicom
 2. Pillow
+```bash
+pip install pydicom Pillow
+```
 
 ## Contributing
 If you would like to contribute to this project, please follow these steps:
@@ -38,10 +41,11 @@ If you would like to contribute to this project, please follow these steps:
 
 
 ## License
+License: Apache 2.0
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 
 ## Acknowledgments
 Thanks to the contributors of pydicom and Pillow.
 
 ## Author
-Vasantharan K (https://www.github.com/KUMARANVASANTH/)
+Vasantharan K
